@@ -27,6 +27,7 @@ function Button2(text) {
     this.text = text;
 
 }
+//test braku self.
 Button2.prototype = {
     create: function () {
         this.$element = $('<button>');
